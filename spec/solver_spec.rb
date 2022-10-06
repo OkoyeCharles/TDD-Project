@@ -10,6 +10,7 @@ describe Solver do
       expect(@solver).to be_an_instance_of Solver
     end
   end
+
   describe '#factorial' do
     it 'should return factorial of number' do
       factorial = @solver.factorial(4)
@@ -21,6 +22,13 @@ describe Solver do
     end
     it 'should raise error if number is negative' do
       expect { raise StandardError }.to raise_error StandardError
+    end
+  end
+
+  describe '#reverse' do
+    it 'should reverse a string' do
+      reversed_string = @solver.reverse('hello')
+      expect(reversed_string).to eq 'olleh'
     end
   end
 end
