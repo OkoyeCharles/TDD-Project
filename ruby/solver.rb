@@ -5,7 +5,7 @@ class Solver
     num*factorial(num - 1)
   end
 
-  def error
-    raise 'Error!!!'
+  def reverse(string)
+    string.reverse
   end
 end
