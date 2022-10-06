@@ -1,6 +1,11 @@
 class Solver
   def factorial(num)
-    return 1 if num == 1
+    raise 'Negative numbers are not allowed' if num < 0
+    return 1 if num == 1 || num == 0
     num*factorial(num - 1)
+  end
+
+  def error
+    raise 'Error!!!'
   end
 end

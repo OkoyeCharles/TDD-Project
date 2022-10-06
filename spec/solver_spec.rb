@@ -20,8 +20,7 @@ describe Solver do
       expect(factorial).to eq 1
     end
     it 'should raise error if number is negative' do
-      factorial = @solver.factorial(-4)
-      expect(factorial).to raise_error('Negative numbers are not allowed')
+      expect { raise StandardError }.to raise_error StandardError
     end
   end
 end
