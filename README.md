@@ -1,56 +1,44 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TDD-Project
 
-> Description the project.
-
+> A project created with ruby, implemented to practice and demonstrate test-driven development (TDD)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Rspec
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+- Clone this repository with git clone`git@github.com:OkoyeCharles/TDD-Project` using your terminal or command line.
+- Change to the project directory by entering : <br>
+  `cd TDD-Project` in the terminal.
 
 ### Setup
 
-### Install
+You can clone this repository or simply download the files as a .zip
+If you want to set up a personal repository based on this one, you can as well fork it.
 
-### Usage
+### Run test for linter
 
-### Run tests
-
-### Deployment
-
-
+- `rubocop`
 
 ## Authors
 
-👤 **Author1**
+👤 **Okoye Charles**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@OkoyeCharles](https://github.com/OkoyeCharles)
+- Twitter: [@OkoyeCharles\_](https://twitter.com/OkoyeCharles_)
+- LinkedIn: [Okoye Charles](https://www.linkedin.com/in/charles-k-okoye/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Berkay Akbas**
+
+- GitHub: [@berkay-akbas](https://github.com/Berkay-akbas)
+- LinkedIn: [Berkay Akbas](https://www.linkedin.com/in/berkay-akbas-a03b3b239/)
 
 ## 🤝 Contributing
 
@@ -64,9 +52,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
