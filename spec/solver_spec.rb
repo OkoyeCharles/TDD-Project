@@ -31,4 +31,23 @@ describe Solver do
       expect(reversed_string).to eq 'olleh'
     end
   end
+
+  describe '#fizzbuzz' do
+    def f_b(num)
+      @solver.fizzbuzz(num)
+    end
+
+    it 'should return fizz if number is divisible by 3' do
+      expect(f_b(9)).to eq 'fizz'
+    end
+    it 'should return buzz if number is divisible by 5' do
+      expect(f_b(25)).to eq 'buzz'
+    end
+    it 'should return fizzbuzz if number is divisible by 3 and 5' do
+      expect(f_b(30)).to eq 'fizzbuzz'
+    end
+    it 'should return number as a string if not divisible by 3 or 5' do
+      expect(f_b(17)).to eq '17'
+    end
+  end
 end
