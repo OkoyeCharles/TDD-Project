@@ -10,4 +10,10 @@ describe Solver do
       expect(@solver).to be_an_instance_of Solver
     end
   end
+  describe '#factorial' do
+    it 'should return factorial of number' do
+      factorial = @solver.factorial(4)
+      expect(factorial).to eq 24
+    end
+  end
 end
